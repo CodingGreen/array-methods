@@ -1,0 +1,22 @@
+{
+  "name": "array-methods",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodingGreen/array-methods.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodingGreen/array-methods/issues"
+  },
+  "homepage": "https://github.com/CodingGreen/array-methods#readme",
+  "dependencies": {
+    "jest": "^27.0.6"
+  }
+}
