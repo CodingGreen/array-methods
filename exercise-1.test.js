@@ -1,11 +1,17 @@
 const exerciseOne = require('./exercise-1')
 
 describe('Exercise 1', () => {
-  test('Uses Filter method', () => {
+  test('Uses filter method', () => {
     const inputArray = [];
     const filterSpy = jest.spyOn(inputArray, 'filter');
     exerciseOne(inputArray);
     expect(filterSpy).toHaveBeenCalled();
+  })
+
+  test('Does not modify input array', () => {
+    const inputArray = [3, 9];
+    exerciseOne(inputArray);
+    expect(inputArray).toEqual([3, 9]);
   })
 
   test('Only includes numbers less than 6', () => {
