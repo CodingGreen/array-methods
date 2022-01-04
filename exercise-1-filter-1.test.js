@@ -1,4 +1,4 @@
-const exerciseOne = require('./exercise-1')
+const exerciseOne = require('./exercise-1-filter-1')
 
 describe('Exercise 1', () => {
   test('Uses filter method', () => {
