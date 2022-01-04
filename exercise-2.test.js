@@ -1,4 +1,4 @@
-const exerciseTwo = require('./exercise-2-filter-2')
+const exerciseTwo = require('./exercise-2')
 const countryData = require('./country-data');
 
 describe('Exercise 2', () => {
