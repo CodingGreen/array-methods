@@ -4,9 +4,9 @@ const countryData = require('./country-data');
 describe('Exercise 4', () => {
   test('Uses map method', () => {
     const inputArray = [];
-    const filterSpy = jest.spyOn(inputArray, 'map');
+    const mapSpy = jest.spyOn(inputArray, 'map');
     exerciseFour(inputArray);
-    expect(filterSpy).toHaveBeenCalled();
+    expect(mapSpy).toHaveBeenCalled();
   })
   
   test('Does not modify input array', () => {
