@@ -41,12 +41,12 @@ const inputData = {
             price: 12.99,
         },
         {
-            itemId: 345,
+            itemId: 917,
             currency: 'GBP',
             price: 15.99,
         },
         {
-            itemId: 345,
+            itemId: 917,
             currency: 'EUR',
             price: 17.89,
         },
@@ -98,17 +98,17 @@ const inputData = {
             stock: 0,
         },
         {
-            itemId: 345,
+            itemId: 917,
             size: '6',
             stock: 12,
         },
         {
-            itemId: 345,
+            itemId: 917,
             size: '7',
             stock: 32,
         },
         {
-            itemId: 345,
+            itemId: 917,
             size: '8',
             stock: 7,
         },
@@ -179,7 +179,7 @@ const expectedOutput = {
         ],
         outOfStockItems: [
             {
-                itemId: '345',
+                id: '345',
                 name: 'Top Hat',
                 description: 'Bit old hat',
                 price: {
@@ -187,12 +187,12 @@ const expectedOutput = {
                     currency: 'GBP'
                 },
                 inStock: false,
-                sizesInStock: ['M', 'L'],
+                sizesInStock: [],
             }
         ]
     },
     'Shoes': {
-        id: '23',
+        id: '28',
         totalStock: 51,
         inStockItems: [
             {
