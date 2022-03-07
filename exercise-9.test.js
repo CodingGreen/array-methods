@@ -22,11 +22,11 @@ describe('Exercise 9', () => {
 
   test('Returns true when there is two matching entries', () => {
     const result = exerciseNine(countryData, 'Africa');
-    expect(result).toBe(false)
+    expect(result).toBe(true)
   })
 
-  test('Returns false if threshold is above all population figures', () => {
-    const result = exerciseNine(countryData, 1000000000);
+  test('Returns false when there is no matching entries', () => {
+    const result = exerciseNine(countryData, 'South America');
     expect(result).toBe(false)
   })
 })
